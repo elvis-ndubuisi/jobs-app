@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "jobs-app",
-    "slug": "jobs-app"
+    "slug": "jobs-app",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.elvisndubuisi.jobapp",
+      "versionCode": 0
+    }
   }
 }
