@@ -1,19 +1,38 @@
 # Job Search Mobile App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+<div style="max-width: 400px; aspec-ratio: 16:2; margin-bottom:0.5em;">
+    <img src="jobs-app.png" style="display: block; max-width:200%; object-fit:contain; obect-position: center;"/>
+</div>
 
-## 🚀 How to use
+Small scale fullstack mobile app using expo, react-native, the new react-native router, and free job search API from RapidAPI hub.
 
-```sh
-npx create-react-native-app -t with-router
+## 🚀 How to setup
+
+- Clone repository to your local machine.
+
+```bash
+git clone https://github.com/elvis-ndubuisi/jobs-app.git
 ```
 
-## 📝 Notes
+- Install project packages. Before to have expo-cli and Nodejs > v14 <=v16
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+```bash
+npm install
+```
 
-## UI Design by
+- Start project
+
+```bash
+npm start
+```
+
+- Scan the generated QR code (using Expo-Go app on your phone).
+
+## How to setup 2
+
+- Open [this expo build page](https://expo.dev/@elvis_ndubuisi/jobs-app?serviceType=classic&distribution=expo-go)
+- Scan the QR-code using the Expo-Go app. (this only works for android users.)
+
+## 🖌️ UI Design by
 
 [Michel Achkar](https://dribbble.com/michelachkar)
